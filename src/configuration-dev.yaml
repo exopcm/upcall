@@ -1,0 +1,27 @@
+# *** API Listener Configurations ***
+api:
+  host: "0.0.0.0"
+  path: "/v1.0/*"
+  autodiscoveryId: "16440475"
+  name: "bpmanagecustdmog"
+  
+https:
+  private:
+    port: "8092"
+    
+UpdateSalesforceSuscriber:
+  host: "dpqa-ch-nat.bcbsm.com"
+  port: "6206"
+  path: "/MSCloudHUBAPI/AIP/api/updatesalesforcesubscriber"
+  clientId: "4c466c63f3e44132a8bdfe59cf11dfe7"
+IKAWS:  
+  timout: "25000"
+  service: CustDmogMgmtPort
+  port: CustDmogMgmtPort
+  username: "simschdev"
+  
+IKA-MI:
+  address: https://dpqa-ch-nat.bcbsm.com:61004/Maika/CustDmogMgmt
+  
+IKA-AR:
+  address: https://dpqa-ch-nat.bcbsm.com:61004/Maika-AR/CustDmogMgmt     
