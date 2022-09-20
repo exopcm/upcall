@@ -1,0 +1,54 @@
+.div1 {
+    
+    width: 100%;
+        background-color: rgb(137, 139, 143);
+        color: rgb(255, 255, 255);
+        height: 40px;
+        padding-left: 10px;
+        padding-top: 20px;
+        border-bottom: solid 1px rgb(73, 73, 73);
+        }
+/* label {
+    
+         position: absolute;
+            top: 200;
+             left: 0; 
+            display: 'inline'; 
+            margin-right: '50px';    
+            background-color: #abcdef;
+        } */
+
+
+table {
+    /* border: 1px solid black; */
+    /* padding: 2.5px; */
+    /* position:absolute; */
+    /* bottom: 50; */
+    width: 100%;
+    font-size: .75rem;
+}
+
+li {
+    width: 100%;
+        /* background-color: rgb(247, 249, 253); */
+        color: hwb(0 3% 96%);
+        /* height: 30px; */
+        /* padding-left: 20px; */
+        /* padding-top: 15px; */
+        text-align: left;
+        position: relative;
+        top: 20;
+        /* border-bottom: solid 1px rgb(73, 73, 73); */
+}
+
+ol {
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+    position:relative;
+    /* top: 50; */
+    /* float: left; */
+    text-align: left;
+    list-style: none;
+    font-size: 1rem;
+    border: none;
+}
